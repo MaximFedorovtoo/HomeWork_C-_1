@@ -5,14 +5,17 @@
 
 Console.Clear();
 int [] number = new int [3];
-string [] numer = {"первое", "второе", "третье"};
+string [] title = {"первое", "второе", "третье"};
 int count = 0;
 while (count< number.Length){
-    Console.Write($"Введите {numer[count]} число: ");
+    Console.Write($"Введите {title[count]} число: ");
     number[count] = int.Parse(Console.ReadLine());
     count++;
 }
-int max = number[0];
-if(max<number[1]){ max = number[1]; }
-if(max<number[2]){ max = number[2]; }
+int max = 0;
+count =0;
+while (count<number.Length){
+if(max<number[count]){ max = number[count]; }
+count++;
+}
 Console.WriteLine($"Максимальное число равно {max}");
