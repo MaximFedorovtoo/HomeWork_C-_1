@@ -5,6 +5,6 @@
 
 Console.Clear();
 Console.Write("ВВедите число: ");
-int perem = int.Parse(Console.ReadLine());
-if(perem % 2 == 0) {Console.WriteLine($"Да число {perem} является четным");}
-else {Console.WriteLine($"Число {perem} не является четным");}
+int var = int.Parse(Console.ReadLine());
+if(var % 2 == 0) {Console.WriteLine($"Да число {var} является четным");}
+else {Console.WriteLine($"Число {var} не является четным");}
