@@ -14,9 +14,9 @@ while (count < number.Length){
 }
 int max = number[0];
 count = 0;
-while(count<number.Length)
+while(count < number.Length)
 {
-    if(max<number[count]){ max = number[count];}
+    if(max < number[count]){ max = number[count]; }
     count++;
 }
 Console.WriteLine($"Максимальное число равно: {max}");
