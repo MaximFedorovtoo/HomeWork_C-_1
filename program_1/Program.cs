@@ -12,7 +12,7 @@ while (count < number.Length){
     number[count] = int.Parse(Console.ReadLine());
     count++;
 }
-int max = 0;
+int max = number[0];
 count = 0;
 while(count<number.Length)
 {
