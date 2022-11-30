@@ -5,12 +5,15 @@
 
 Console.Clear();
 int [] number = new int [2];
-Console.Write("Введите первое число: ");
-number[0] = int.Parse(Console.ReadLine()); 
-Console.Write("Введите второе число: ");
-number[1] = int.Parse(Console.ReadLine()); 
-int max = 0;
+string [] numer = {"первое", "второе"};
 int count = 0;
+while (count<= number.Length){
+    Console.Write($"Введите {numer[count]} число: ");
+    number[count] = int.Parse(Console.ReadLine());
+    count++;
+}
+int max = 0;
+count = 0;
 while(count<number.Length)
 {
     if(max<number[count]){ max = number[count];}
