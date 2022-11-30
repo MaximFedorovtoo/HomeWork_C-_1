@@ -8,7 +8,6 @@ int count = 2;
 Console.Write($"{number} -> ");
 while(count <= number)
 {
-    
     Console.Write($"{count}, ");
     count = count + 2;
 }
