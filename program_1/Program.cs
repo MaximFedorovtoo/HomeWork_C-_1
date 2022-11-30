@@ -7,7 +7,7 @@ Console.Clear();
 int [] number = new int [2];
 string [] numer = {"первое", "второе"};
 int count = 0;
-while (count<= number.Length){
+while (count < number.Length){
     Console.Write($"Введите {numer[count]} число: ");
     number[count] = int.Parse(Console.ReadLine());
     count++;
