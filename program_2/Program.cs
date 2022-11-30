@@ -13,7 +13,7 @@ while (count< number.Length){
     count++;
 }
 int max = 0;
-count =0;
+count = 0;
 while (count<number.Length){
 if(max<number[count]){ max = number[count]; }
 count++;
